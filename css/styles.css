@@ -10832,3 +10832,12 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+
+
+
+.custom-bg {
+    background-image: url('assets/bg.png'); /* путь к вашему изображению */
+    background-size: cover; /* изображение будет растягиваться на весь блок */
+    background-position: center center; /* изображение будет по центру блока */
+    background-repeat: no-repeat; /* изображение не будет повторяться */
+}
