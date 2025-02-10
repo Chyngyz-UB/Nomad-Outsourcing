@@ -10844,3 +10844,10 @@ textarea.form-control-lg {
   width: 100%; /* Ширина iframe будет 100% от контейнера */
   border: 0; /* Убирает рамку вокруг iframe */
 }
+
+
+.feature img {
+    border: none !important;      /* Убираем рамку */
+    outline: none !important;     /* Убираем контур при фокусе */
+    box-shadow: none !important;  /* Убираем тень, если есть */
+}
