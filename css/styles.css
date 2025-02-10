@@ -10851,3 +10851,21 @@ textarea.form-control-lg {
     outline: none !important;     /* Убираем контур при фокусе */
     box-shadow: none !important;  /* Убираем тень, если есть */
 }
+
+
+@media (max-width: 768px) {
+    #testimonials .card {
+        width: 100% !important;          /* Занимает всю ширину экрана */
+        margin: 10px 0 !important;        /* Добавляем отступы сверху и снизу */
+        padding: 15px !important;         /* Пространство внутри карточки */
+        box-sizing: border-box;           /* Учитывает паддинги и границы */
+    }
+
+    #testimonials .container {
+        padding: 0 15px !important;       /* Уменьшаем боковые отступы */
+    }
+
+    #testimonials .text-center {
+        text-align: center !important;    /* Центрируем текст для мобильных */
+    }
+}
