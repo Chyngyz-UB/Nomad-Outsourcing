@@ -60,39 +60,104 @@
 
 
         <!-- Features section-->
-        <section class="py-5 border-bottom" id="features">
-            <div class="container px-5 my-5">
-                <div class="row gx-5">
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
-                        <h2 class="h4 fw-bolder">Начисление заработной платы</h2>
-                        <p><em>Обеспечьте точный и своевременный расчет заработной платы для ваших сотрудников без лишних хлопот!</em></p>
-                        <a class="text-decoration-none" href="#!">
-                            подробнее
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-building"></i></div>
-                        <h2 class="h4 fw-bolder">Сдача отчетов</h2>
-                        <p><em>Доверьте нам подготовку и сдачу налоговой отчетности, чтобы избежать штрафов и задержек!</em></p>
-                        <a class="text-decoration-none" href="#!">
-                            подробнее
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-toggles2"></i></div>
-                        <h2 class="h4 fw-bolder">Консультации по налоговым вопросам</h2>
-                        <p><em>Получите профессиональную консультацию по налогам и оптимизируйте свои расходы уже сегодня!</em></p>
-                        <a class="text-decoration-none" href="#!">
-                            подробнее
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
+<section class="py-5 border-bottom" id="features">
+    <div class="container px-5 my-5">
+        <div class="row gx-5">
+            <!-- Начисление заработной платы -->
+            <div class="col-lg-3 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-collection"></i>
+                </div>
+                <h2 class="h4 fw-bolder">Начисление заработной платы</h2>
+                <p><em>Обеспечьте точный и своевременный расчет заработной платы для ваших сотрудников без лишних хлопот!</em></p>
+                <a class="text-decoration-none" href="#payroll-details" data-bs-toggle="collapse">
+                    подробнее
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+                <div class="collapse" id="payroll-details">
+                    <ul>
+                        <li>Расчет заработной платы с учетом налогов и отчислений</li>
+                        <li>Подготовка платежных ведомостей</li>
+                        <li>Удержание и перечисление налогов и соцвзносов</li>
+                        <li>Подготовка отчетов для Социального фонда и налоговой службы</li>
+                        <li>Ведение учета рабочего времени и отпусков</li>
+                        <li>Оформление расчетных и платежных документов</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+
+            <!-- Сдача отчетов -->
+            <div class="col-lg-3 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-building"></i>
+                </div>
+                <h2 class="h4 fw-bolder">Сдача отчетов</h2>
+                <p><em>Доверьте нам подготовку и сдачу налоговой отчетности, чтобы избежать штрафов и задержек!</em></p>
+                <a class="text-decoration-none" href="#reports-details" data-bs-toggle="collapse">
+                    подробнее
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+                <div class="collapse" id="reports-details">
+                    <ul>
+                        <li>Подготовка и сдача налоговых отчетов (НДС, ОНС, УСН)</li>
+                        <li>Сдача отчетов в Социальный фонд и органы статистики</li>
+                        <li>Подготовка отчетности по прибыли и убыткам</li>
+                        <li>Электронная сдача отчетов</li>
+                        <li>Корректировка ранее поданных отчетов</li>
+                        <li>Ведение отчетности по сотрудникам (зарплата и соцвзносы)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Консультации по налоговым вопросам -->
+            <div class="col-lg-3 mb-5 mb-lg-0">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-toggles2"></i>
+                </div>
+                <h2 class="h4 fw-bolder">Консультации по налоговым вопросам</h2>
+                <p><em>Получите профессиональную консультацию по налогам и оптимизируйте свои расходы уже сегодня!</em></p>
+                <a class="text-decoration-none" href="#consulting-details" data-bs-toggle="collapse">
+                    подробнее
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+                <div class="collapse" id="consulting-details">
+                    <ul>
+                        <li>Оптимизация налоговой нагрузки</li>
+                        <li>Анализ налоговых рисков и предотвращение штрафов</li>
+                        <li>Консультирование по изменениям в налоговом законодательстве</li>
+                        <li>Подготовка к налоговым проверкам</li>
+                        <li>Разработка налоговых стратегий</li>
+                        <li>Консультации по международному налогообложению</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Выписка электронных счетов-фактур (ЭСФ) -->
+            <div class="col-lg-3">
+                <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3">
+                    <i class="bi bi-file-earmark-text"></i>
+                </div>
+                <h2 class="h4 fw-bolder">Выписка электронных счетов-фактур (ЭСФ)</h2>
+                <p><em>Выписывайте электронные счета-фактуры быстро и без ошибок с помощью наших экспертов!</em></p>
+                <a class="text-decoration-none" href="#esf-details" data-bs-toggle="collapse">
+                    подробнее
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+                <div class="collapse" id="esf-details">
+                    <ul>
+                        <li>Создание и оформление электронных счетов-фактур в системе e-SF</li>
+                        <li>Регистрация ЭСФ в соответствии с требованиями законодательства</li>
+                        <li>Проверка правильности данных перед отправкой</li>
+                        <li>Автоматизация процесса выписки ЭСФ</li>
+                        <li>Исправление ошибок и аннулирование некорректных ЭСФ</li>
+                        <li>Ведение реестра выписанных ЭСФ для налоговой отчетности</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 
        <!-- Pricing section -->
